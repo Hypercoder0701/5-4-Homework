@@ -1,0 +1,280 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+}
+
+svg {
+  width: 20px;
+}
+.container {
+  width: 25%;
+  border: 2px solid blue;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #aaa;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+}
+.blok {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  display: inline-block;
+}
+.button1 {
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 7px;
+}
+.Restart {
+  padding: 5px 4px;
+  margin: 20px;
+}
+.button1:hover {
+  background-color: #3e8e41;
+}
+.button1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+
+h2 {
+  color: yellow;
+  font-size: 20px;
+  padding: 10px 0;
+  margin-top: 10px;
+  display: block;
+}
+span {
+  color: white;
+  font-weight: bold;
+  font-size: 27px;
+  text-decoration: underline;
+}
+.img1 {
+  float: left;
+  margin-left: 30px;
+}
+.img2 {
+  float: right;
+  margin-right: 30px;
+}
+h1 {
+  color: white;
+
+  font-size: 50px;
+}
+.footer {
+  border-top: 3px solid blue;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+}
+.b {
+  background-color: orange;
+}
+p {
+  color: red;
+  font-size: 30px;
+  font-family: george;
+}
+.timer {
+  width: 70px;
+  height: 30px;
+  border: 1.5px solid white;
+  position: relative;
+  float: right;
+  box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.5);
+  top: -20px;
+  color: blue;
+  font-style: italic;
+  text-decoration: none;
+  background-color: orange;
+  right: 30px;
+}
+.clear {
+  clear: both;
+}
+#nat {
+  float: left;
+  top: -20px;
+  left: 50px;
+}
+#user {
+  float: left;
+  top: -17px;
+  left: 50px;
+  width: 40px !important;
+  height: 25px;
+  margin-top: 0px;
+  border: 1px;
+}
+#comp {
+  border: 1px;
+  margin-top: 0px;
+  float: left;
+  top: -17px;
+  left: 50px;
+  width: 40px;
+  height: 25px;
+}
+.fa {
+  font-size: 23px;
+  color: brown;
+  position: relative;
+  bottom: 2px;
+}
+.button {
+  display: inline-block;
+  padding: 4px 10px;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px orange;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+.buttondif:hover {
+  background-color: #3e8e41;
+}
+
+.buttondifeffect {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.settings {
+  display: block;
+  margin-bottom: 10px;
+  padding: 0 10px 0 10px;
+  border: 1px solid yellow;
+}
+.operator {
+  float: left;
+  color: white;
+}
+.xona {
+  float: right;
+}
+.operationClass {
+  color: yellow;
+  float: left;
+  font-size: 20px;
+  font-family: arial;
+  margin-right: 170px;
+}
+.numbers {
+  color: yellow;
+  font-size: 20px;
+  font-family: arial;
+  margin-right: 0px;
+  float: right;
+}
+.cursor {
+  cursor: not-allowed;
+}
+#soz {
+  color: white;
+}
+.buttondif {
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px orange;
+}
+.difficulty {
+  margin-top: 10px;
+  height: auto;
+}
+.modal {
+  padding-top: 100px;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+h3 {
+  color: orange;
+  font-weight: bold;
+  margin: 2px;
+}
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+.modal-footer {
+  padding: 2px 16px;
+  background-color: white;
+  color: white;
+  height: 50px;
+}
+.modal-body {
+  padding: 2px 16px;
+}
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: animatetop;
+  animation-duration: 0.7s;
+  text-align: center;
+}
+.old {
+  color: blue;
+  font-size: 20px;
+}
